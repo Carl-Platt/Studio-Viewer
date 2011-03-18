@@ -1,0 +1,17 @@
+{
+  "name": "StudioViewer",
+  "version": "0.1",
+  "description": "A quick access tool to view current and past studio contests as well as Bug Races and Review Opportunities from TopCoder Studio",
+  "icons":{"128":"images/icon.ico"},
+  "browser_action": {
+      "default_icon": "images/icon.ico",
+      "popup": "pages/popup.html",
+	  "default_title": "Studio Viewer"
+  },
+  
+  "permissions": [
+	  "http://feeds.feedburner.com/",
+	  "http://apps.topcoder.com/"	
+  ]
+}
+
